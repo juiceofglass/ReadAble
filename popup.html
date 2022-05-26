@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="popup.js"></script>
+</head>
+<body style="width:300px;border-radius: 15px">
+
+<div style="width: 100%">
+    <div class="panel panel-success" style="margin: 0px">
+        <div class="panel-heading">Settings</div>
+        <div class="panel-body" style="padding: 0px">
+            <ul class="list-group" style="margin:0px;">
+                <li class="list-group-item">
+                    <div class="form-group form-inline">
+                        <label for="gapSizeSlider">Gap width</label>
+                        <input type="range" style="width: 75%" id="gapSizeSlider" min="5" value="25" max="60" step="1">
+                    </div>
+
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group form-inline">
+
+                        <label for="opacitySlider">Background opacity</label>
+                        <input type="range" style="width: 75%" id="opacitySlider" min="0" value="50" max="100" step="1">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <label for="actionKey">Key that will allow turning the extension on: </label>
+                    <select id="actionKey" value="type">
+                        <option value="altKey">Alt</option>
+                        <option value="ctrlKey">Ctrl/Cmd</option>
+                        <option value="shiftKey">Shift</option>
+                        <option value="type" selected>None</option>
+                    </select>
+                </li>
+                <li class="list-group-item">
+                    <label for="defaultOn">Default enabled:</label>
+
+
+                    <input type="checkbox" data-toggle="toggle" id="defaultOn">
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
