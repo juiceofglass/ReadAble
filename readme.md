@@ -8,4 +8,4 @@ difficult to focus on and read a long body of text without any visual highlighti
 are currently reading.
 ___
 ## Installation: 
-You can either install it from Chrome Web Store or download and pack the files yourself from here.
+You can either install it from [Chrome Web Store](https://chrome.google.com/webstore/detail/readable/gniifghneipcnfefajiijkmkkfakghjj) or download and pack the files yourself from here.
